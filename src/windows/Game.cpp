@@ -1,5 +1,8 @@
 #include "Game.h"
 #include "../views/Queen.h"
+#include "../views/Controller.h"
+
+
 Game::Game() {
 
     setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
@@ -16,10 +19,14 @@ Game::Game() {
 
 
 
-    double blockWidth = width()/16.78;
-    double blockHeight = height()/10.5;
-    double x=width()/5.58;
-    double y=height()/10.45;
+    int a[8];
+    f(a,8,-1);
+    qInfo()<<array.at(0);
+
+     blockWidth = width()/16.78;
+     blockHeight = height()/10.5;
+     x=width()/5.58;
+     y=height()/10.45;
 
 //    auto queen=new Queen(x, y, BackgroundScene);
 //    BackgroundScene->addItem(queen);
@@ -69,12 +76,35 @@ Game::Game() {
     BackgroundScene->addItem(queen8);
     queen8->setPos(x+7*blockWidth,y);
 
+//
+//    int x=*(game->getArray().at(i*counter));
+//    this->getQueens().at(0)->setPos(x,y+blockHeight);
+
+int counter=1;
+    for(int i=0;i<8;i++){
+        int y=(this->getArray().at((8*counter)+i));
+        this->getQueens().at(i )->setPos(this->getX()+this->getBlockWidth()*y,this->getY()+this->getBlockHeight()*(i));
+
+    }
 
 
 
 
 
+//
+    auto controller = new  Controller(this);
+    BackgroundScene->addItem(controller);
 
+
+
+
+//for(int i=0;i<92;i++){
+//    for(int j=0;j<8;j++){
+//        qInfo()<<this->getArray().at(i*8+j);
+//
+//    }
+//    qInfo()<<"/n";
+//}
 
 
 
@@ -82,6 +112,7 @@ Game::Game() {
 
 
     setScene(BackgroundScene);
+
 
 
 
@@ -116,12 +147,12 @@ void Game::f(int* a,int n,int k){
 
 
          for(int i=0;i<n;i++){
-             array.append(&a[i]);
-//             cout<<a[i];
+             array.append(a[i]);
+//             qInfo()<<a[i];
          }
         // cout<<endl;
         // ++counter;
-        // flag=false;
+         flag=false;
 
     }
     else if(k<n){
@@ -138,11 +169,29 @@ void Game::f(int* a,int n,int k){
 }
 
 
+QList<Queen *> Game::getQueens() {
+    return queens;
+}
 
+double Game::getBlockWidth() {
+    return blockWidth;
+}
 
+QList<int>Game::getArray() {
+    return array;
+}
 
+double Game::getBlockHeight() {
+    return blockHeight;
+}
 
+double Game::getX() {
+    return x;
+}
 
+double Game::getY() {
+    return y;
+}
 
 
 
