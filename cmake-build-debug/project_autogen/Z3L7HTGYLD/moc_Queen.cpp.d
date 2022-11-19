@@ -1,4 +1,4 @@
-C:/Users/Lenovo/Desktop/chess/cmake-build-debug/project_autogen/3LXPKN4LCA/moc_Game.cpp: C:/Users/Lenovo/Desktop/chess/src/windows/Game.h \
+C:/Users/Lenovo/Desktop/chess/cmake-build-debug/project_autogen/Z3L7HTGYLD/moc_Queen.cpp: C:/Users/Lenovo/Desktop/chess/src/views/Queen.h \
   C:/Users/Lenovo/Desktop/chess/cmake-build-debug/project_autogen/moc_predefs.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
@@ -292,42 +292,22 @@ C:/Users/Lenovo/Desktop/chess/cmake-build-debug/project_autogen/3LXPKN4LCA/moc_G
   C:/Qt/6.2.4/mingw_64/include/QtCore/qvariant.h \
   C:/Qt/6.2.4/mingw_64/include/QtCore/qvarlengtharray.h \
   C:/Qt/6.2.4/mingw_64/include/QtCore/qversiontagging.h \
-  C:/Qt/6.2.4/mingw_64/include/QtGui/qbitmap.h \
-  C:/Qt/6.2.4/mingw_64/include/QtGui/qbrush.h \
   C:/Qt/6.2.4/mingw_64/include/QtGui/qcolor.h \
-  C:/Qt/6.2.4/mingw_64/include/QtGui/qcursor.h \
-  C:/Qt/6.2.4/mingw_64/include/QtGui/qfont.h \
-  C:/Qt/6.2.4/mingw_64/include/QtGui/qfontinfo.h \
-  C:/Qt/6.2.4/mingw_64/include/QtGui/qfontmetrics.h \
   C:/Qt/6.2.4/mingw_64/include/QtGui/qimage.h \
-  C:/Qt/6.2.4/mingw_64/include/QtGui/qkeysequence.h \
   C:/Qt/6.2.4/mingw_64/include/QtGui/qpaintdevice.h \
-  C:/Qt/6.2.4/mingw_64/include/QtGui/qpainter.h \
   C:/Qt/6.2.4/mingw_64/include/QtGui/qpainterpath.h \
-  C:/Qt/6.2.4/mingw_64/include/QtGui/qpalette.h \
-  C:/Qt/6.2.4/mingw_64/include/QtGui/qpen.h \
   C:/Qt/6.2.4/mingw_64/include/QtGui/qpixelformat.h \
   C:/Qt/6.2.4/mingw_64/include/QtGui/qpixmap.h \
   C:/Qt/6.2.4/mingw_64/include/QtGui/qpolygon.h \
   C:/Qt/6.2.4/mingw_64/include/QtGui/qregion.h \
   C:/Qt/6.2.4/mingw_64/include/QtGui/qrgb.h \
   C:/Qt/6.2.4/mingw_64/include/QtGui/qrgba64.h \
-  C:/Qt/6.2.4/mingw_64/include/QtGui/qtextoption.h \
   C:/Qt/6.2.4/mingw_64/include/QtGui/qtgui-config.h \
   C:/Qt/6.2.4/mingw_64/include/QtGui/qtguiglobal.h \
   C:/Qt/6.2.4/mingw_64/include/QtGui/qtransform.h \
   C:/Qt/6.2.4/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.2.4/mingw_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/6.2.4/mingw_64/include/QtWidgets/QGraphicsPixmapItem \
-  C:/Qt/6.2.4/mingw_64/include/QtWidgets/QGraphicsView \
-  C:/Qt/6.2.4/mingw_64/include/QtWidgets/qabstractscrollarea.h \
-  C:/Qt/6.2.4/mingw_64/include/QtWidgets/qframe.h \
   C:/Qt/6.2.4/mingw_64/include/QtWidgets/qgraphicsitem.h \
-  C:/Qt/6.2.4/mingw_64/include/QtWidgets/qgraphicsscene.h \
-  C:/Qt/6.2.4/mingw_64/include/QtWidgets/qgraphicsview.h \
-  C:/Qt/6.2.4/mingw_64/include/QtWidgets/qscrollarea.h \
-  C:/Qt/6.2.4/mingw_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt/6.2.4/mingw_64/include/QtWidgets/qtwidgets-config.h \
-  C:/Qt/6.2.4/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
-  C:/Qt/6.2.4/mingw_64/include/QtWidgets/qwidget.h \
-  C:/Users/Lenovo/Desktop/chess/src/views/Queen.h
+  C:/Qt/6.2.4/mingw_64/include/QtWidgets/qtwidgetsglobal.h

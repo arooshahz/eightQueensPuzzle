@@ -450,8 +450,8 @@ project_autogen/timestamp: \
   project_autogen/moc_predefs.h \
   ../main.cpp \
   ../resources.qrc \
-  ../src/views/Vazir.cpp \
-  ../src/views/Vazir.h \
+  ../src/views/Queen.cpp \
+  ../src/views/Queen.h \
   ../src/windows/Game.cpp \
   ../src/windows/Game.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/cmake/win/bin/cmake.exe

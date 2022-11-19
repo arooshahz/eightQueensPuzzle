@@ -14,7 +14,7 @@ find_package(Qt6 COMPONENTS
         Widgets
         REQUIRED)
 
-add_executable(project main.cpp src/windows/Game.h src/windows/Game.cpp src/views/Vazir.cpp src/views/Vazir.h resources.qrc)
+add_executable(project main.cpp src/windows/Game.h src/windows/Game.cpp src/views/Queen.cpp src/views/Queen.h resources.qrc)
         target_link_libraries(project
         Qt::Core
         Qt::Gui

@@ -450,8 +450,8 @@ project_autogen/timestamp: \
 	C:/Users/Lenovo/Desktop/chess/cmake-build-debug/project_autogen/moc_predefs.h \
 	C:/Users/Lenovo/Desktop/chess/main.cpp \
 	C:/Users/Lenovo/Desktop/chess/resources.qrc \
-	C:/Users/Lenovo/Desktop/chess/src/views/Vazir.cpp \
-	C:/Users/Lenovo/Desktop/chess/src/views/Vazir.h \
+	C:/Users/Lenovo/Desktop/chess/src/views/Queen.cpp \
+	C:/Users/Lenovo/Desktop/chess/src/views/Queen.h \
 	C:/Users/Lenovo/Desktop/chess/src/windows/Game.cpp \
 	C:/Users/Lenovo/Desktop/chess/src/windows/Game.h \
 	C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/cmake/win/bin/cmake.exe

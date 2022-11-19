@@ -228,9 +228,9 @@
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/Lenovo/Desktop/chess/src/views/Vazir.h",
+			"C:/Users/Lenovo/Desktop/chess/src/views/Queen.h",
 			"MU",
-			"Z3L7HTGYLD/moc_Vazir.cpp",
+			"Z3L7HTGYLD/moc_Queen.cpp",
 			null
 		],
 		[
@@ -304,7 +304,7 @@
 	"SOURCES" : 
 	[
 		[ "C:/Users/Lenovo/Desktop/chess/main.cpp", "MU", null ],
-		[ "C:/Users/Lenovo/Desktop/chess/src/views/Vazir.cpp", "MU", null ],
+		[ "C:/Users/Lenovo/Desktop/chess/src/views/Queen.cpp", "MU", null ],
 		[ "C:/Users/Lenovo/Desktop/chess/src/windows/Game.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],

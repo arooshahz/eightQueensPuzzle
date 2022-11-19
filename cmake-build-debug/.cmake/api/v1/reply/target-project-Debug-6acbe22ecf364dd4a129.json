@@ -278,12 +278,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/views/Vazir.cpp",
+			"path" : "src/views/Queen.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "src/views/Vazir.h",
+			"path" : "src/views/Queen.h",
 			"sourceGroupIndex" : 1
 		},
 		{
