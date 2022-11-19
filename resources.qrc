@@ -1,0 +1,11 @@
+<RCC>
+
+    <qresource prefix="/images">
+        <file alias="bg">resources/images/chess1.png</file>
+        <file alias="playbg">resources/images/chess2.png</file>
+        <file alias="a">resources/images/chess11.png</file>
+        <file alias="vazir">resources/images/vazir.png</file>
+    </qresource>
+
+
+</RCC>
